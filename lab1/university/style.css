@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0%;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+}
+
+body{
+    background:url("https://www.toptal.com/designers/subtlepatterns/uploads/moroccan-flower.png");
+}
+
+.container{
+    margin-top: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 2.1rem;
+    margin-bottom: 2.1rem;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 0px 2px 4px white;
+    padding: 1.3rem;
+    border-radius: 30px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.1rem;
+}
+
+form > input,textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+
+button{
+    padding: 0.5rem;
+    font-size: smaller;
+    border-radius: 0.4rem;
+    background-color: #ff7c1e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ff7c1ec4;
+}
+
+.likes{
+    display: flex;
+    gap: 1.1rem;
+}
+
+.interset{
+    display: flex;
+    gap: 0.6rem;
+}
+
+h2{
+    font-size: 1.45rem;
+    margin: 1.1rem 0 0rem 0 ;
+}
+
+h3{
+    margin: 0.3rem 0 0.6rem 0;
+    font-size: 1.45rem;
+}
+
+textarea{
+    margin-top: 1.3rem;
+}

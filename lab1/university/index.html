@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>University Feedback</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="/" class="feedbacxk-form">
+            <h1>Give Us your valuable Feedback !!</h1>
+            <input type="text" placeholder="Name" required>
+            <input type="text" placeholder="Address" required>
+            <input type="text" placeholder="E-mail" required>
+            <h3 style="margin: 1.3rem 0 0 0.6rem;">What did you like most about the campus?</h3>
+            <div class="likes">
+                <div class="students-div">
+                    <input type="checkbox" name="likes" id="students" value="Students">
+                    <label for="students">Students</label>
+                </div>
+                <div class="locations-div">
+                    <input type="checkbox" name="likes" id="location" value="location">
+                    <label for="location">Location</label>
+                </div>
+                <div class="campus-div">
+                    <input type="checkbox" name="likes" id="campus" value="campus">
+                    <label for="campus">Campus</label>
+                </div>
+                <div class="atmosphere-div">
+                    <input type="checkbox" name="likes" id="atmoshphere" value="atmoshphere">
+                    <label for="atmoshphere">Atmoshphere</label>
+                </div>
+                <div class="sports-div">
+                    <input type="checkbox" name="likes" id="sports" value="sports">
+                    <label for="atmoshphere">Sports</label>
+                </div>
+            </div>
+            <h2>How did you become interested in US?</h2>
+            <div class="interset">
+                <input type="radio" name="intersets" id="friends" value="friends">
+                <label for="friends">Friends</label>
+                <input type="radio" name="intersets" id="television" value="television">
+                <label for="television">Television</label>
+                <input type="radio" name="intersets" id="internet" value="internet">
+                <label for="internet">Internet</label>
+                <input type="radio" name="intersets" id="others" value="others">
+                <label for="others">Others</label>
+            </div>
+            <textarea name="feedback" id="" cols="50" rows="5" placeholder="Additional Comments..."></textarea>
+            <div class="buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
