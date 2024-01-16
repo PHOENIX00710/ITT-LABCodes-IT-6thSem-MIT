@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+tr{
+    text-align: center;
+}
+table,td{
+    border: 1px solid black;
+    padding: 8px;
+}
+caption{
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+iframe{
+    height: 40vh;
+    overflow-y: scroll;
+}
+iframe::--webkit::-webkit-scrollbar{
+    display: none;
+}
