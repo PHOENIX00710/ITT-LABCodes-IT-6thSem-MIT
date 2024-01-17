@@ -7,12 +7,14 @@ const increaseSize=()=>{
     fontSize+=2;
     text.style.fontSize=`${fontSize}pt`
     text.style.color='red'
+    text.textContent='YES YES YES!!'
 }
 
 const decreaseSize=()=>{
     fontSize-=2;
     text.style.fontSize=`${fontSize}pt`
     text.style.color='blue'
+    text.textContent='NO NO NO!!'
 }
 
 const onLoad=setInterval(()=>{
