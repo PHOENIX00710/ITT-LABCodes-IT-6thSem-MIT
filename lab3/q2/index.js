@@ -8,6 +8,20 @@ input.addEventListener('change',(e)=>{
 
 const breakIntoWords=(word)=>{
     words=word.split(" ");
+    convertToPigLatin();
+}
+
+const convertToPigLatin=()=>{
+    let temp=[];
+    for(let i of words){
+        console.log(i);
+        const temp2=i.split('');
+        const firstDigit=temp2.shift();
+        temp2.push(firstDigit);
+        temp2.push("ay");
+        temp.push(temp2);
+    }
+    console.log(temp);
 }
 
 btn.addEventListener('click',(e)=>{
