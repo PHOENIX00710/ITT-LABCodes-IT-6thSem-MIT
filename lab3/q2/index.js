@@ -12,19 +12,22 @@ const breakIntoWords=(word)=>{
 }
 
 const convertToPigLatin=()=>{
-    let temp=[];
+    let temp="";
     for(let i of words){
-        console.log(i);
+        console.log("i: ",i);
         const temp2=i.split('');
         const firstDigit=temp2.shift();
-        temp2.push(firstDigit);
-        temp2.push("ay");
-        temp.push(temp2);
+        temp2.push(firstDigit,"ay");
+        for(let i of temp2){
+            temp+=String(i)
+        }
+        temp+=" "
     }
-    console.log(temp);
+    alert(temp)
 }
 
 btn.addEventListener('click',(e)=>{
     e.preventDefault()
+    input.value=""
     breakIntoWords(input.value);
 })
