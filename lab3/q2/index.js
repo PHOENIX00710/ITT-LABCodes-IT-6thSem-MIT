@@ -28,6 +28,6 @@ const convertToPigLatin=()=>{
 
 btn.addEventListener('click',(e)=>{
     e.preventDefault()
-    input.value=""
     breakIntoWords(input.value);
+    input.value=""
 })
