@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.125rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    /* Ensure .container is positioned */
+}
+
+.paragraphs {
+    position: absolute;
+    padding: 1.1rem;
+    border-radius: 3%;
+    box-shadow: 0px 2px 2px 4px rgba(0, 0, 0, 0.623);
+
+}
+
+#para1 {
+    z-index: 1;
+    top: 0;
+    /* Adjust as needed */
+}
+
+#para2 {
+    z-index: 2;
+    top: 20px;
+    /* Slightly below para1 */
+}
+
+#para3 {
+    z-index: 3;
+    top: 40px;
+    /* Slightly below para2 */
+}
