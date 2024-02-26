@@ -24,6 +24,6 @@ print(arr2,arr)
     Using Numpy:-
     
     print(arr@arr2) # Matrix multiplication
-    print(arr+arr2) # Matrix multiplication
+    print(arr+arr2) # Matrix Addition
     
 '''''
