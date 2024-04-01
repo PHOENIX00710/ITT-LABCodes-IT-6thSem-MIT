@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Medical Inventory Management System</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h2>Medical Inventory Management</h2>
+    
+    <div id="message"></div>
+    
+    <h3>Add New Item</h3>
+    <form id="addItemForm">
+        <input type="text" id="itemName" placeholder="Item Name" required>
+        <input type="number" id="itemQuantity" placeholder="Quantity" required>
+        <button type="submit">Add Item</button>
+    </form>
+    
+    <h3>Inventory List</h3>
+    <table id="inventoryTable">
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Quantity</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Inventory items will be inserted here -->
+        </tbody>
+    </table>
+    
+    <script src="inventory.js"></script>
+</body>
+</html>
