@@ -1,6 +1,5 @@
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
-truth=os.getenv('SECRET')
-print(truth)
+environment_variables = os.environ
+for key, value in environment_variables.items():
+    print(f"{key}: {value}")
