@@ -1,6 +1,3 @@
-// inventory.js
-
-// Sample inventory data
 let inventory = [
     { itemName: "Paracetamol", quantity: 20 },
     { itemName: "Amoxicillin", quantity: 15 }
